@@ -13,6 +13,7 @@
     --armor-bottom-1:   #383838;
     --armor-bottom-2:   #333232;
     --boots-col:        #121212;
+    --CDRP-Logo-col:    #dc0d15;
 }
 
 .bg-black           { background-color: var(--border-col);    }
@@ -29,6 +30,7 @@
 .bg-armor-bottom    { background-color: var(--armor-bottom-1);}
 .bg-armor-bottom-2  { background-color: var(--armor-bottom-2);}
 .bg-boots           { background-color: var(--boots-col);     }
+.bg-CDRP-Logo       { background-color: var(--CDRP-Logo-col); }
 
 .border{ 
     border-top: 20px solid black;
