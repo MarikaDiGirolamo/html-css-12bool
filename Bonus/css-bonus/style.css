@@ -1,19 +1,19 @@
 body{
-    background-color: red;
+    background-color: blanchedalmond;
 
 }
-body.debug .container{
+/* body.debug .container{
     background-color: blueviolet;
-}
+} */
 
 [class*="col-"]{
     height: 50px;
     min-width: 50px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: flex;
 }
 
-[class*="nest-"]{
+/* [class*="nest-"]{
     height: 50px;
     min-width: 50px;
     display: flex;
@@ -24,10 +24,18 @@ body.debug .container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+} */
+
+/* MAIN */
+
+main    {margin: 7.5rem 4rem}
+
+h1{
+    font-style: oblique;
+    color: black;
 }
 
-
-main    {margin-top: 7.5rem}
-
-
 footer  {margin-top: 2rem;}
+
+
+/* DA FARE ANCORA LE MEDIA QUERY */
