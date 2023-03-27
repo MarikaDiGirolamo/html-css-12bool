@@ -1,0 +1,33 @@
+body{
+    background-color: red;
+
+}
+body.debug .container{
+    background-color: blueviolet;
+}
+
+[class*="col-"]{
+    height: 50px;
+    min-width: 50px;
+    border: 1px solid white;
+    display: flex;
+}
+
+[class*="nest-"]{
+    height: 50px;
+    min-width: 50px;
+    display: flex;
+}
+
+.box-nest{
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+main    {margin-top: 7.5rem}
+
+
+footer  {margin-top: 2rem;}
