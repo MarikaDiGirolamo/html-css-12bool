@@ -1,0 +1,38 @@
+/* body.debug .container{
+    background-color: blueviolet;
+} */
+
+[class*="col-"]{
+    min-height: 50px;
+    background-color: var(--column-col);
+    color: var(--text-col);
+    border: 1px solid white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+[class*="nest-"]{
+    font-size: 14px;
+    min-height: 50px;
+    background-color: var(--nest-col);
+    color: var(--text-col);
+    border: 1px solid var(--column-col);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-nest{
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main    {margin-top: 2rem;}
+
+
+footer  {margin-top: 2rem;}
