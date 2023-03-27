@@ -1,5 +1,6 @@
 body{
-    background-color: blanchedalmond;
+    background: rgb(220,13,21);
+    background: linear-gradient(0deg, rgba(220,13,21,1) 0%, rgba(0,0,0,1) 100%);
 
 }
 /* body.debug .container{
@@ -28,14 +29,22 @@ body{
 
 /* MAIN */
 
-main    {margin: 7.5rem 4rem}
+main {
+    margin: 7.5rem 4rem}
+
 
 h1{
     font-style: oblique;
     color: black;
 }
 
-footer  {margin-top: 2rem;}
+footer {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 20%, rgba(220,13,21,1) 100%);
+    margin-top: 2rem;
+}
+
+
 
 
 /* DA FARE ANCORA LE MEDIA QUERY */
