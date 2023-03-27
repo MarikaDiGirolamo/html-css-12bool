@@ -15,12 +15,28 @@
     --boots-col:        #121212;
 }
 
-.bg-black{ background-color: var(--border-col);}
-.bg-gray-1{background-color: var(--hair-1);}
-.bg-gray-2{ background-color: var(--hair-2);}
-.bg-gray-3{background-color: var(--hair-3);}
-.bg-face{ background-color: var(--face-col);}
-.bg-scar{ background-color: var(--scar-col);}
+.bg-black           { background-color: var(--border-col);    }
+.bg-gray-1          { background-color: var(--hair-1);        }
+.bg-gray-2          { background-color: var(--hair-2);        }
+.bg-gray-3          { background-color: var(--hair-3);        }
+.bg-face            { background-color: var(--face-col);      }
+.bg-scar            { background-color: var(--scar-col);      }
+.bg-details         { background-color: var(--details-col);   }
+.bg-silver          { background-color: var(--silver-col);    }
+.bg-shoulder        { background-color: var(--shoulder-col);  }
+.bg-armor-top       { background-color: var(--armor-top-1);   }
+.bg-armor-top-2     { background-color: var(--armor-top-2);   }
+.bg-armor-bottom    { background-color: var(--armor-bottom-1);}
+.bg-armor-bottom-2  { background-color: var(--armor-bottom-2);}
+.bg-boots           { background-color: var(--boots-col);     }
+
+.border{ 
+    border-top: 20px solid black;
+    border-right: 20px solid black;
+}
+
+.border-1{border-right: 20px solid black;}
+.border-2{border-left: 20px solid black;}
 
 
 /********** FLEX **********/
