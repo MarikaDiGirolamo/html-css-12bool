@@ -1,0 +1,23 @@
+:root{
+    --column-col: #006cfa;
+    --nest-col: #00e165;
+    --text-col: whitesmoke;
+}
+
+
+/********** FLEX **********/
+.flex            {display: flex;}
+.flex-column     {flex-direction: column;}
+.flex-end        {justify-content: flex-end;}
+.justify-center  {justify-content: center;}
+.align-center    {align-items: center;}
+.align-left      {align-items: left;}
+.justify-between {justify-content: space-between;}
+.wrap            {flex-wrap: wrap;}
+
+/********** TEXT PROPERTIES **********/
+.text-center    {text-align: center;}
+.text-left      {text-align: left;}
+
+/********** PADDING **********/
+.pad1           {padding: 10px;}
