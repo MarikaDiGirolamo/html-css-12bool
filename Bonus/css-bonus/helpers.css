@@ -1,0 +1,41 @@
+:root{
+    --border-col:       #000000;
+    --hair-1:           #cdcdcd;
+    --hair-2:           #dcdcdc;
+    --hair-3:           #e3e3e3;
+    --face-col:         #ffd3bd;
+    --scar-col:         #ff9f6e;
+    --silver-col:       #747474;
+    --details-col:      #3a1616;
+    --shoulder-col:     #333232;
+    --armor-top-1:      #0d0f20;
+    --armor-top-2:      #11132a;
+    --armor-bottom-1:   #383838;
+    --armor-bottom-2:   #333232;
+    --boots-col:        #121212;
+}
+
+.bg-black{ background-color: var(--border-col);}
+.bg-gray-1{background-color: var(--hair-1);}
+.bg-gray-2{ background-color: var(--hair-2);}
+.bg-gray-3{background-color: var(--hair-3);}
+.bg-face{ background-color: var(--face-col);}
+.bg-scar{ background-color: var(--scar-col);}
+
+
+/********** FLEX **********/
+.flex            {display: flex;}
+.flex-column     {flex-direction: column;}
+.flex-end        {justify-content: flex-end;}
+.justify-center  {justify-content: center;}
+.align-center    {align-items: center;}
+.align-left      {align-items: left;}
+.justify-between {justify-content: space-between;}
+.wrap            {flex-wrap: wrap;}
+
+/********** TEXT PROPERTIES **********/
+.text-center    {text-align: center;}
+.text-left      {text-align: left;}
+
+/********** PADDING **********/
+.pad1           {padding: 10px;}
